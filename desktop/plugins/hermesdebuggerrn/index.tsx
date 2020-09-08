@@ -23,7 +23,7 @@ import ErrorScreen from './ErrorScreen';
 import ChromeDevTools from './ChromeDevTools';
 
 const POLL_SECS = 5 * 1000;
-const METRO_HOST = 'http://localhost:8081';
+const METRO_HOST = 'http://localhost:8087';
 
 export type Target = Readonly<{
   id: string;
